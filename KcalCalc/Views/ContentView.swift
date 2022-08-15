@@ -24,13 +24,13 @@ struct ContentView: View {
                 
                 List {
                     ForEach(food) { food in
-                        NavigationLink(destination: Text("\(food.calories)")) {
+                        NavigationLink(destination: EditFoodView(food: food)) {
                             HStack {
                                 VStack(alignment: .leading, spacing: 6) {
                                     Text(food.name!)
                                         .bold()
                                     
-                                    Text("\(Int(food.calories))") + Text(" calories").foregroundColor(.red)
+                                    Text("\(Int(food.calories))").foregroundColor(.indigo) + Text(" calories").foregroundColor(.red)
                                 }
                                 Spacer()
                                 Text(calcTimeSince(date: food.date!))
@@ -78,7 +78,7 @@ struct ContentView: View {
                caloriesToday += item.calories
            }
        }
-       
+
        return caloriesToday
    }
 }

@@ -15,6 +15,8 @@
 		AC578D5128AAB9C70066CC4B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5028AAB9C70066CC4B /* DataController.swift */; };
 		AC578D5528AABF7C0066CC4B /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5428AABF7C0066CC4B /* AddFoodView.swift */; };
 		AC578D5728AAC3610066CC4B /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5628AAC3610066CC4B /* TimeFormatting.swift */; };
+		AC578D5928AAD4C50066CC4B /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5828AAD4C50066CC4B /* EditFoodView.swift */; };
+		AC578D5B28AAD7570066CC4B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5A28AAD7570066CC4B /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		AC578D5028AAB9C70066CC4B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		AC578D5428AABF7C0066CC4B /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		AC578D5628AAC3610066CC4B /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		AC578D5828AAD4C50066CC4B /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		AC578D5A28AAD7570066CC4B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			children = (
 				AC578D4028AAB6E90066CC4B /* ContentView.swift */,
 				AC578D5428AABF7C0066CC4B /* AddFoodView.swift */,
+				AC578D5828AAD4C50066CC4B /* EditFoodView.swift */,
+				AC578D5A28AAD7570066CC4B /* SplashScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 				AC578D5128AAB9C70066CC4B /* DataController.swift in Sources */,
 				AC578D3F28AAB6E90066CC4B /* KcalCalcApp.swift in Sources */,
 				AC578D4F28AAB8540066CC4B /* FoodModel.xcdatamodeld in Sources */,
+				AC578D5928AAD4C50066CC4B /* EditFoodView.swift in Sources */,
 				AC578D5728AAC3610066CC4B /* TimeFormatting.swift in Sources */,
+				AC578D5B28AAD7570066CC4B /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
