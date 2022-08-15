@@ -11,6 +11,8 @@
 		AC578D4128AAB6E90066CC4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D4028AAB6E90066CC4B /* ContentView.swift */; };
 		AC578D4328AAB6EB0066CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC578D4228AAB6EB0066CC4B /* Assets.xcassets */; };
 		AC578D4628AAB6EB0066CC4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC578D4528AAB6EB0066CC4B /* Preview Assets.xcassets */; };
+		AC578D4F28AAB8540066CC4B /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC578D4D28AAB8540066CC4B /* FoodModel.xcdatamodeld */; };
+		AC578D5128AAB9C70066CC4B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC578D5028AAB9C70066CC4B /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AC578D4028AAB6E90066CC4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC578D4228AAB6EB0066CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC578D4528AAB6EB0066CC4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC578D4E28AAB8540066CC4B /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
+		AC578D5028AAB9C70066CC4B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		AC578D3D28AAB6E90066CC4B /* KcalCalc */ = {
 			isa = PBXGroup;
 			children = (
+				AC578D4C28AAB8430066CC4B /* DataModel */,
 				AC578D3E28AAB6E90066CC4B /* KcalCalcApp.swift */,
 				AC578D4028AAB6E90066CC4B /* ContentView.swift */,
 				AC578D4228AAB6EB0066CC4B /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				AC578D4528AAB6EB0066CC4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC578D4C28AAB8430066CC4B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC578D4D28AAB8540066CC4B /* FoodModel.xcdatamodeld */,
+				AC578D5028AAB9C70066CC4B /* DataController.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC578D4128AAB6E90066CC4B /* ContentView.swift in Sources */,
+				AC578D5128AAB9C70066CC4B /* DataController.swift in Sources */,
 				AC578D3F28AAB6E90066CC4B /* KcalCalcApp.swift in Sources */,
+				AC578D4F28AAB8540066CC4B /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC578D4D28AAB8540066CC4B /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC578D4E28AAB8540066CC4B /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = AC578D4E28AAB8540066CC4B /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC578D3328AAB6E90066CC4B /* Project object */;
 }
